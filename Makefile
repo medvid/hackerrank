@@ -1,5 +1,5 @@
 CC       = clang
-CFLAGS  += -O0 -g -std=c99 -lm
+CFLAGS  += -O0 -g -std=c99 -lm -Wall -Wextra -Wno-unused-parameter
 
 CLIP    ?= gpaste
 
